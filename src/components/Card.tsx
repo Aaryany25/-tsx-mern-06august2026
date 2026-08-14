@@ -116,7 +116,7 @@ export const Card: React.FC<CardProps> = ({
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, scale: 0.95 }}
-      whileHover={{ y: -6, scale: 1.015 }}
+      whileHover={{ y: -8, scale: 1.015 }}
       whileTap={{ scale: 0.98 }}
       transition={{
         type: 'spring',
