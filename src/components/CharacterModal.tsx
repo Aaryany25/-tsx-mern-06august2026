@@ -284,7 +284,7 @@ export const CharacterModal: React.FC<CharacterModalProps> = ({
 
                     <div className="bg-white border-2 border-black p-3 rounded-xl shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
                       <div className="flex items-center gap-1 text-neutral-500 mb-1 font-bold">
-                        <Thermometer className="w-3.5 h-3.5 text-black" />
+                        <Thermometer className="w-3.5 h-3.5 text-black font-semibold" />
                         <span>Climate</span>
                       </div>
                       <span className="font-extrabold text-black capitalize">{homeworld.climate}</span>
